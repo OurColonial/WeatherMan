@@ -4,8 +4,27 @@ body {
     font-family: 'Roboto Slab', serif;
 }
 
+canvas {
+    padding-left: 0;
+    padding-right: 0;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
 .temp-title {
     font-size: 3.5em;
     color: red;
     text-shadow: 2 2 2;
+}
+
+.guage {
+    background: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-color: linear-gradient(315deg, #000000 0%, #414141 74%);
+    background-image: linear-gradient(315deg, #000000 0%, #414141 74%);
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    border-radius: 50px;
+    padding: 25px;
 }
